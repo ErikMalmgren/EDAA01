@@ -1,0 +1,21 @@
+F1
+Null pointer exception, Scheduler, machineWithLeastToDo, rad 19, konstruktorn skapar en ny "machine" istället för att använda attributet
+Array Index out of bounds exception, Scheduler, printSchedule, rad 49, Fel i for-loopen, de gick ett steg förlångt.
+Index 3 blir fjärde positionen eftersom en array börjar på 0
+
+F2
+4. Jobben sorteras i stigande ordning, fel ordning på J1 och J2 i DescTimeComp
+5. Jobbtiden för en machine plussades in på ut byttes ut helt mot den nya jobbtiden
+
+F3
+En Collections.sort() hade kunnat lösa den sorteringsuppgiften
+
+F4
+a) 200 rader, säker på talens ordning i utskriften
+
+b) 100 rader, osäker på ordningen
+
+c) String, Integer
+7
+
+d) containsKey();
