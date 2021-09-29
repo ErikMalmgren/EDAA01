@@ -1,0 +1,10 @@
+Lab 2 förberedelser 
+
+F2
+a) null
+b) QueueNode<E> n = element;
+c) E e = element.element;
+
+F3
+a) assertTrue
+b) assertArrayEquals

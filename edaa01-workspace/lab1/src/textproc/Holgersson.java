@@ -54,5 +54,6 @@ public class Holgersson {
 
 	long t1 = System.nanoTime();
 	System.out.println("Tid: " + (t1-t0)/1000000 + "ms");
+	// TreeMap ca 100 ms snabbare
 	}
 }
