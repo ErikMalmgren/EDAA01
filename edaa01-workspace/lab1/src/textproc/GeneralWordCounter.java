@@ -12,6 +12,10 @@ public class GeneralWordCounter implements TextProcessor {
 		}
 	}
 	
+	public List<Map.Entry<String, Integer>> getWordList(){
+		return new ArrayList<Map.Entry<String, Integer>>(wordMap.entrySet());
+	}
+	
 	@Override
 	public void process(String w) {
 		if (!stopwordSet.contains(w)) {

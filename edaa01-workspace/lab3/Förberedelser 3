@@ -1,0 +1,11 @@
+F2
+entrySet();
+
+F3
+Integer.compare(e1.getValue(), e2.getValue());
+
+F4
+getAction()
+getText()
+add()
+setSelectedIndices();
