@@ -11,9 +11,9 @@ F3
 En Collections.sort() hade kunnat lösa den sorteringsuppgiften
 
 F4
-a) 200 rader, säker på talens ordning i utskriften
+a) 20 rader, säker på talens ordning i utskriften
 
-b) 100 rader, osäker på ordningen
+b) 10 rader, osäker på ordningen
 
 c) String, Integer
 7
