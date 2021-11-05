@@ -1,0 +1,6 @@
+F2.
+a) Varje rekursivt anrop skapar 4 nya rekursiva anrop tills n = 0
+4^4 = 256 st linjer
+
+b) Vid varje anrop delas längden med 3
+810/3^4 = 10 enheter
