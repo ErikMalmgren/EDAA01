@@ -1,0 +1,15 @@
+F1
+a) 10, 20, 30, 47
+b) 2 om man börjar på 0
+c) 3 mot svaret i B
+
+F2
+a) 
+0
+1 + Math.max(höjd(höger), höjd(vänster));
+
+b)
+Math.max();
+
+F3
+(first+last)/2
