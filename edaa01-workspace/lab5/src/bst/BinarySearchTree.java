@@ -23,20 +23,14 @@ public class BinarySearchTree<E> {
 		bst.rebuild();
 		vis.drawTree(bst);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	/**
 	 * Constructs an empty binary search tree.
 	 */
+	@SuppressWarnings("unchecked")
 	public BinarySearchTree() {
 		root = null;
+		size = 0;
 		comparator = (e1, e2) -> ((Comparable<E>) e1).compareTo(e2);
 	}
 
@@ -46,6 +40,7 @@ public class BinarySearchTree<E> {
 	 */
 	public BinarySearchTree(Comparator<E> comparator) {
 		root = null;
+		size = 0;
 		this.comparator = comparator;
 	}
 
