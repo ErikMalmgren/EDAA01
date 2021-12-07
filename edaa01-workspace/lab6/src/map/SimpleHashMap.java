@@ -126,7 +126,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 	}
 
 	@Override
-	public int size() {
+	public int size() { //Detta kan göras som attribut istället
 		int c = 0;
 
 		for (int i = 0; i < table.length; i++) {
